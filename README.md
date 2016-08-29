@@ -7,13 +7,13 @@ Tired of regexping your way through your music notes? This package provides some
 Install with:
 
 ```
-npm install coda
+npm install coda-music
 ```
 
 Usage:
 
 ```javascript
-> var coda = require('coda');
+> var coda = require('coda-music');
 > var Scale = coda.Scale;
 > var Interval = coda.Interval;
 > var Chord = coda.Chord;
