@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "github.com/sdeleon28/coda"
+    "url": "git+https://github.com/sdeleon28/coda.git"
   },
   "keywords": [
     "music",
