@@ -1,5 +1,6 @@
 import { expect } from 'chai';
-import Chord, { NOTES } from '../Chord';
+import { NOTES } from '../constants';
+import Chord from '../Chord';
 import chordSpecs from '../specs/chords';
 
 

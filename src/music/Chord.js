@@ -1,8 +1,8 @@
 import _ from 'lodash';
 import Interval from './Interval';
 import chordSpecs from './specs/chords';
+import { NOTES } from './constants';
 
-export const NOTES = 'C C# D D# E F F# G G# A A# B'.split(' ');
 const NOTES_TWICE = [...NOTES, ...NOTES];
 
 const getNoteForInterval = (root, intervalCode) =>

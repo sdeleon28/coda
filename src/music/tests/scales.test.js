@@ -1,5 +1,6 @@
 import { expect } from 'chai';
-import Scale, { NOTES } from '../Scale';
+import { NOTES } from '../constants';
+import Scale from '../Scale';
 import scaleSpecs from '../specs/scales';
 import {
   cMajorScalePattern,

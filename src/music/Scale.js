@@ -1,5 +1,6 @@
 import _ from 'lodash';
 import scaleSpecs from './specs/scales';
+import { NOTES } from './constants';
 
 const MODE_NAMES = [
   'Ionian',
@@ -11,7 +12,6 @@ const MODE_NAMES = [
   'Locrian',
 ];
 
-export const NOTES = 'C C# D D# E F F# G G# A A# B'.split(' ');
 const NOTES_TWICE = [...NOTES, ...NOTES];
 
 const shift = (array, positions) => ([...array.slice(positions), ...array.slice(0, positions)]);
