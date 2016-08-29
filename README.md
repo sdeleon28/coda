@@ -40,3 +40,11 @@ Usage:
 > Interval.getHalfsteps(Interval.AUGMENTED_FIFTH);
 8
 ```
+
+## Roadmap
+
+* Key signatures
+* Harmonize a scale
+* Make scale notes key-aware (currently uses sharps only)
+* Ability to provide custom "specs" (templates to build scales/chords upon)
+* Suggestions? Please, file an issue or consider submitting a PR!
