@@ -1,6 +1,6 @@
 import _ from 'lodash';
 import Interval from './Interval';
-import chordSpecs from './specs/chords.json';
+import chordSpecs from './specs/chords';
 
 export const NOTES = 'C C# D D# E F F# G G# A A# B'.split(' ');
 const NOTES_TWICE = [...NOTES, ...NOTES];

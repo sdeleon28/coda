@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import scaleSpecs from './specs/scales.json';
+import scaleSpecs from './specs/scales';
 
 const MODE_NAMES = [
   'Ionian',

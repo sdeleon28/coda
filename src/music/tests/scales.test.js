@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 import Scale, { NOTES } from '../Scale';
-import scaleSpecs from '../specs/scales.json';
+import scaleSpecs from '../specs/scales';
 import {
   cMajorScalePattern,
   cMajorScale,

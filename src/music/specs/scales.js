@@ -1,4 +1,4 @@
-[
+const scales = [
   {
     "id": "M",
     "label": "Major",
@@ -41,4 +41,5 @@
     "ascending": [0, 3, 2, 1, 1, 3],
     "descending": null
   }
-]
+];
+export default scales;

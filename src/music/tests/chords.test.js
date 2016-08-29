@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 import Chord, { NOTES } from '../Chord';
-import chordSpecs from '../specs/chords.json';
+import chordSpecs from '../specs/chords';
 
 
 const cMajor = {

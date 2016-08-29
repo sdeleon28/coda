@@ -1,4 +1,4 @@
-[
+const chords = [
   {
     "id": "M",
     "formula": [
@@ -319,4 +319,5 @@
     "description": "",
     "chordType": "5th"
   }
-]
+];
+export default chords;
