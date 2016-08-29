@@ -1,0 +1,11 @@
+{
+  "globals": {
+    "describe": false,
+    "it": false,
+    "beforeEach": false,
+    "afterEach": false
+  },
+  "rules": {
+    "import/no-extraneous-dependencies": 0
+  }
+}
