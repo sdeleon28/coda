@@ -17,7 +17,6 @@ Usage:
 > var Scale = coda.Scale;
 > var Interval = coda.Interval;
 > var Chord = coda.Chord;
-> var Key = coda.Key;
 
 > Scale.make('C', 'M');
 { id: 'CM',
@@ -40,30 +39,10 @@ Usage:
 
 > Interval.getHalfsteps(Interval.AUGMENTED_FIFTH);
 8
-
-> Key.make('C', Key.MAJOR)
-{ root: 'C',
-  quality: 'major',
-  chords: 
-   [ { id: 'CM', specId: 'M', label: 'C Major', notes: [Object] },
-     { id: 'Dm', specId: 'm', label: 'D Minor', notes: [Object] },
-     { id: 'Em', specId: 'm', label: 'E Minor', notes: [Object] },
-     { id: 'FM', specId: 'M', label: 'F Major', notes: [Object] },
-     { id: 'GM', specId: 'M', label: 'G Major', notes: [Object] },
-     { id: 'Am', specId: 'm', label: 'A Minor', notes: [Object] },
-     { id: 'Bdim',
-       specId: 'dim',
-       label: 'B Diminished',
-       notes: [Object] } ] }
-
-> Key.getRelativeMinor('C');
-'A'
-
-> Key.getRelativeMajor('A');
-'C'
 ```
 
 ## Roadmap
 
+* Finish keys implementation (flats don't work yet)
 * Ability to provide custom "specs" (templates to build scales/chords upon)
 * Suggestions? Please, file an issue or consider submitting a PR!
