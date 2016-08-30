@@ -18,7 +18,7 @@ Usage:
 > var Interval = coda.Interval;
 > var Chord = coda.Chord;
 
-> Scale.make('C', 'M')
+> Scale.make('C', 'M');
 { id: 'CM',
   specId: 'M',
   label: 'C Major Scale',
@@ -28,7 +28,7 @@ Usage:
 > Scale.makeAll().length;
 84
 
-> Chord.make('C', '7')
+> Chord.make('C', '7');
 { id: 'C7',
   specId: '7',
   label: 'C 7th',
