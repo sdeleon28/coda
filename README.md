@@ -1,6 +1,6 @@
 # coda
 
-Tired of regexping your way through your music notes? This package provides some useful abstractions to work with music concepts.
+This package provides some useful abstractions to work with music concepts.
 
 ## Quickstart
 
